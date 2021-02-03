@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="walidator:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>walidator</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="forms-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="walidator:war exploded" />
+    </root>
+  </artifact>
+</component>
